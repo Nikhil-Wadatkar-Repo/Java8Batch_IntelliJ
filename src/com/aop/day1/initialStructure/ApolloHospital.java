@@ -1,4 +1,4 @@
-package com.aop;
+package com.aop.day1.initialStructure;
 
 public class ApolloHospital implements EmployeeDetails {
 	@Override
