@@ -22,11 +22,13 @@ public class Main {
 
         int firstElement = nums.stream().findFirst().get();
         System.out.println(firstElement);
+
         int firstAny = nums.stream().findAny().get();
         System.out.println("FindAny: " + firstAny);
 
         List<Employee> employees=Employee.getEmployees();
         System.out.println(employees.stream().collect(Collectors.groupingBy(Employee::getDepartment)));;
+
 
 
     }
